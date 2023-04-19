@@ -9,19 +9,33 @@
 /* Begin PBXBuildFile section */
 		3D2D39B029F03398008E919E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D39AF29F03398008E919E /* AppDelegate.swift */; };
 		3D2D39B229F03398008E919E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D39B129F03398008E919E /* SceneDelegate.swift */; };
-		3D2D39B429F03398008E919E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D39B329F03398008E919E /* ViewController.swift */; };
+		3D2D39B429F03398008E919E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D39B329F03398008E919E /* LoginVC.swift */; };
 		3D2D39B929F03398008E919E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D39B829F03398008E919E /* Assets.xcassets */; };
 		3D2D39BC29F03398008E919E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D39BA29F03398008E919E /* LaunchScreen.storyboard */; };
+		3D2D39CC29F045B1008E919E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D39CB29F045B1008E919E /* LoginView.swift */; };
+		3D2D39CF29F069BE008E919E /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D39CE29F069BE008E919E /* SFProText-Bold.ttf */; };
+		3D2D39D129F069EF008E919E /* SFProText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D39D029F069EF008E919E /* SFProText-Medium.ttf */; };
+		3D2D39D329F06A09008E919E /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D39D229F06A09008E919E /* SFProText-Semibold.ttf */; };
+		3D2D39D529F06A30008E919E /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D39D429F06A2F008E919E /* SFProText-Regular.ttf */; };
+		3D4A88EF29F07FBC005F73A2 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A88EE29F07FBC005F73A2 /* LoginPresenter.swift */; };
+		3D4A88F229F0856B005F73A2 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A88F129F0856B005F73A2 /* Builder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D2D39AC29F03398008E919E /* TestMobileUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMobileUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2D39AF29F03398008E919E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D2D39B129F03398008E919E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D2D39B329F03398008E919E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D2D39B329F03398008E919E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		3D2D39B829F03398008E919E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D2D39BB29F03398008E919E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D2D39BD29F03398008E919E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2D39CB29F045B1008E919E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3D2D39CE29F069BE008E919E /* SFProText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Bold.ttf"; sourceTree = "<group>"; };
+		3D2D39D029F069EF008E919E /* SFProText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Medium.ttf"; sourceTree = "<group>"; };
+		3D2D39D229F06A09008E919E /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Semibold.ttf"; sourceTree = "<group>"; };
+		3D2D39D429F06A2F008E919E /* SFProText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Regular.ttf"; sourceTree = "<group>"; };
+		3D4A88EE29F07FBC005F73A2 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		3D4A88F129F0856B005F73A2 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +72,9 @@
 				3D2D39C429F037D2008E919E /* Helpers */,
 				3D2D39C529F0382E008E919E /* Resources */,
 				3D2D39C629F0384E008E919E /* Application */,
+				3D4A88F029F08553005F73A2 /* Core */,
 				3D2D39C729F03875008E919E /* SupportingFiles */,
-				3D2D39B329F03398008E919E /* ViewController.swift */,
+				3D2D39CD29F06926008E919E /* Common */,
 			);
 			path = TestMobileUp;
 			sourceTree = "<group>";
@@ -89,6 +104,7 @@
 		3D2D39C629F0384E008E919E /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				3D2D39C829F04566008E919E /* LoginFlow */,
 				3D2D39B129F03398008E919E /* SceneDelegate.swift */,
 				3D2D39AF29F03398008E919E /* AppDelegate.swift */,
 			);
@@ -102,6 +118,59 @@
 				3D2D39BD29F03398008E919E /* Info.plist */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		3D2D39C829F04566008E919E /* LoginFlow */ = {
+			isa = PBXGroup;
+			children = (
+				3D4A88ED29F07F6F005F73A2 /* Presenter */,
+				3D2D39CA29F0459F008E919E /* ViewController */,
+				3D2D39C929F04596008E919E /* View */,
+			);
+			path = LoginFlow;
+			sourceTree = "<group>";
+		};
+		3D2D39C929F04596008E919E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D2D39CB29F045B1008E919E /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D2D39CA29F0459F008E919E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D2D39B329F03398008E919E /* LoginVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3D2D39CD29F06926008E919E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3D2D39CE29F069BE008E919E /* SFProText-Bold.ttf */,
+				3D2D39D029F069EF008E919E /* SFProText-Medium.ttf */,
+				3D2D39D229F06A09008E919E /* SFProText-Semibold.ttf */,
+				3D2D39D429F06A2F008E919E /* SFProText-Regular.ttf */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3D4A88ED29F07F6F005F73A2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3D4A88EE29F07FBC005F73A2 /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3D4A88F029F08553005F73A2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3D4A88F129F0856B005F73A2 /* Builder.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +232,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D2D39BC29F03398008E919E /* LaunchScreen.storyboard in Resources */,
+				3D2D39D529F06A30008E919E /* SFProText-Regular.ttf in Resources */,
+				3D2D39D129F069EF008E919E /* SFProText-Medium.ttf in Resources */,
+				3D2D39CF29F069BE008E919E /* SFProText-Bold.ttf in Resources */,
+				3D2D39D329F06A09008E919E /* SFProText-Semibold.ttf in Resources */,
 				3D2D39B929F03398008E919E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,9 +247,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D2D39B429F03398008E919E /* ViewController.swift in Sources */,
+				3D2D39B429F03398008E919E /* LoginVC.swift in Sources */,
 				3D2D39B029F03398008E919E /* AppDelegate.swift in Sources */,
+				3D2D39CC29F045B1008E919E /* LoginView.swift in Sources */,
 				3D2D39B229F03398008E919E /* SceneDelegate.swift in Sources */,
+				3D4A88EF29F07FBC005F73A2 /* LoginPresenter.swift in Sources */,
+				3D4A88F229F0856B005F73A2 /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -298,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
